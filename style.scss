@@ -27,7 +27,6 @@ $darkcolor: #5e6472;
         }
 }
 
-
 header {
     display: flex;
     flex-direction: row;
@@ -83,4 +82,12 @@ main {
             margin: 2%;
         }
     }
+}
+
+.pics {
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 2%;
 }
