@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
     </head>
-    <body>
+    <body class="body_class">
         <header>
             <section>
                 <h1> Emma Holt </h1>
@@ -30,6 +30,28 @@
             </section>
         </header>
         <main>
+            <section class="outside_links">
+                <div class="icon_link_div">
+                    <a class="icon_link" href="https://github.com/E-Holt"><img class="icons" src="./Images/GitHub-Mark-120px-plus.png" alt="the icon for Github"></a>
+                    <a href="https://github.com/E-Holt">Contact me on Github!</a>
+                </div>
+            </section>
+            <section id="feedback_form_section">
+                <div class="input_form" id="name_input_div">
+                    <label for="name_input">Name:</label>
+                    <input type="text" id="name_input" name="name_input"></input>
+                </div>
+                <div class="input_form" id="email_input_div">
+                    <label for="email_input">Email Address:</label>
+                    <input type="text" id="email_input" name="email_input"></input>
+                </div>
+                <div class="input_form" id="feedback_text_div">
+                    <label for="feedback_text">Feedback:</label>
+                    <textarea name="feedback_text" id="feedback_text"></textarea>
+                </div>
+                <div class="input_form">
+                    <button type="submit" id="submit_button">Submit!</button>
+                </div>
         </main>
         <footer>
         </footer>

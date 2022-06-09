@@ -16,6 +16,7 @@ header {
 header a:link {
   color: #5e6472;
   text-decoration: none;
+  transition: background-color 0.5s;
 }
 header a:visited {
   color: #5e6472;
@@ -56,6 +57,7 @@ header ul {
 .body_class a:link {
   color: #5e6472;
   text-decoration: none;
+  transition: background-color 0.5s;
 }
 .body_class a:visited {
   color: #5e6472;
@@ -128,6 +130,73 @@ img:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.resume_link {
+  font-weight: bold;
+}
+
+.outside_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.outside_links .icon_link_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.outside_links .icon_link_div .icons:hover {
+  opacity: 1;
+  animation: wiggle 1.5s linear infinite;
+}
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+.outside_links .icon_link_div a.icon_link:hover {
+  background-color: #faf3dd;
+}
+
+.input_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#feedback_form_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+#feedback_text {
+  width: 40%;
+  height: 70%;
+  overflow: auto;
+  resize: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,7 +5,7 @@
 
 $primarycolor: #aed9e0;
 $secondarycolor: #faf3dd;
-$highlightcolor: #b8f2e6;
+$thirdcolor: #b8f2e6;
 $accentcolor: #ffa69e;
 $darkcolor: #5e6472;
 
@@ -16,6 +16,7 @@ $darkcolor: #5e6472;
         a:link {
             color: $darkcolor;
             text-decoration: none;
+            transition: background-color .5s;
         }
         a:visited {
             color: $darkcolor;
@@ -134,4 +135,72 @@ img:hover {
     display:flex;
     flex-direction:row;
     justify-content:center;
+}
+
+.resume_link {
+    font-weight: bold;
+}
+
+.outside_links {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    .icon_link_div {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+        .icons:hover {
+            opacity:1;
+            animation: wiggle 1.5s linear infinite;
+            @keyframes wiggle {
+                0%, 7% {
+                transform: rotateZ(0);
+                }
+                15% {
+                transform: rotateZ(-15deg);
+                }
+                20% {
+                transform: rotateZ(10deg);
+                }
+                25% {
+                transform: rotateZ(-10deg);
+                }
+                30% {
+                transform: rotateZ(6deg);
+                }
+                35% {
+                transform: rotateZ(-4deg);
+                }
+                40%, 100% {
+                transform: rotateZ(0);
+                }
+            }
+        }
+
+        a.icon_link:hover {
+            background-color: $secondarycolor;
+        } 
+    }
+}
+
+.input_form {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+#feedback_form_section {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content:flex-start;
+}
+
+#feedback_text {
+    width: 40%;
+    height: 70%;
+    overflow:auto;
+    resize:none;
 }
