@@ -144,8 +144,12 @@ img:hover {
 .outside_links .icon_link_div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
+}
+.outside_links .icon_link_div .icons {
+  height: 20%;
+  width: 20%;
 }
 .outside_links .icon_link_div .icons:hover {
   opacity: 1;
@@ -192,8 +196,14 @@ img:hover {
   align-content: flex-start;
 }
 
-#feedback_text {
-  width: 40%;
+#feedback_text_div {
+  display: flex;
+  flex-direction: row;
+  height: 75%;
+  Width: 70%;
+}
+#feedback_text_div #feedback_text {
+  width: 100%;
   height: 70%;
   overflow: auto;
   resize: none;

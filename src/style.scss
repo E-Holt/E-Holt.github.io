@@ -148,8 +148,13 @@ img:hover {
     .icon_link_div {
         display:flex;
         flex-direction:row;
-        justify-content:space-around;
+        justify-content:flex-start;
         align-items:center;
+
+        .icons {
+            height: 20%;
+            width:20%;
+        }
         .icons:hover {
             opacity:1;
             animation: wiggle 1.5s linear infinite;
@@ -198,9 +203,15 @@ img:hover {
     align-content:flex-start;
 }
 
-#feedback_text {
-    width: 40%;
-    height: 70%;
-    overflow:auto;
-    resize:none;
+#feedback_text_div{
+    display:flex;
+    flex-direction:row;
+    height: 75%;
+    Width:70%;
+    #feedback_text {
+        width: 100%;
+        height: 70%;
+        overflow:auto;
+        resize:none;
+    }
 }
