@@ -13,6 +13,7 @@
             <section>
                 <h1> Emma Holt </h1>
             </section>
+            <!--Component 1: nav bar found on all pages-->
             <section id="nav_section">
                 <nav> 
                     <input type="checkbox" id="nav_toggle"/>
@@ -30,48 +31,56 @@
             </section>
         </header>
         <main>
-            <section class="outside_links">
-                <div class="icon_link_div">
-                    <a class="icon_link" href="/Docs/Fake Resume.pdf"><img class="icons" src="./Images/resume_icon.png" alt="the icon indicating a resume"></a>
-                    <a href="/Docs/Fake Resume.pdf" target="_blank">Download my resume!</a>
-                </div>
-                <div class="icon_link_div">
-                    <a class="icon_link" href="https://github.com/E-Holt"><img class="icons" src="./Images/github_icon.png" alt="the icon for Github"></a>
-                    <a href="https://github.com/E-Holt">Contact me on Github!</a>
-                </div>
-                <div class="icon_link_div">
-                    <a class="icon_link" href="https://au.linkedin.com/"><img class="icons" src="./Images/linkedin_icon.png" alt="the icon for linkedin"></a>
-                    <a href="https://au.linkedin.com/">Contact me on Linkedin!</a>
-                </div>
-                <div class="icon_link_div">
-                    <a class="icon_link" href="https://twitter.com/"><img class="icons" src="./Images/twitter_icon.png" alt="the icon for Twitter"></a>
-                    <a href="https://twitter.com/">Contact me on Twitter!</a>
-                </div>
+            <section class="section_class">
+                <h1 class="page_headings">Contact</h1>
             </section>
-            <section id="feedback_form_section">
-                <div class="icon_link_div">
-                    <img class="icons" src="./Images/email_icon.png" alt="an icon indicating email"></a>
-                </div>
-                <section id="feedback_section">
-                    <div class="input_form" id="name_input_div">
-                        <label for="name_input">Name:</label>
-                        <input type="text" id="name_input" name="name_input"></input>
+            <!--Component 3: Contact links with animated icons-->
+            <div id="links_div">
+                <section class="outside_links">
+                    <div class="icon_link_div">
+                        <a class="icon_link" href="/Docs/Fake Resume.pdf"><img class="icons" src="./Images/resume_icon.png" alt="the icon indicating a resume"></a>
+                        <a href="/Docs/Fake Resume.pdf" target="_blank">Download my resume!</a>
                     </div>
-                    <div class="input_form" id="email_input_div">
-                        <label for="email_input">Email Address:</label>
-                        <input type="text" id="email_input" name="email_input"></input>
+                    <div class="icon_link_div">
+                        <a class="icon_link" href="https://github.com/E-Holt"><img class="icons" src="./Images/github_icon.png" alt="the icon for Github"></a>
+                        <a href="https://github.com/E-Holt">Contact me on Github!</a>
                     </div>
-                    <div class="input_form" id="feedback_text_div">
-                        <label for="feedback_text">Feedback:</label>
-                        <textarea name="feedback_text" id="feedback_text"></textarea>
+                    <div class="icon_link_div">
+                        <a class="icon_link" href="https://au.linkedin.com/"><img class="icons" src="./Images/linkedin_icon.png" alt="the icon for linkedin"></a>
+                        <a href="https://au.linkedin.com/">Contact me on Linkedin!</a>
                     </div>
-                    <div class="input_form">
-                        <button type="submit" id="submit_button">Submit!</button>
+                    <div class="icon_link_div">
+                        <a class="icon_link" href="https://twitter.com/"><img class="icons" src="./Images/twitter_icon.png" alt="the icon for Twitter"></a>
+                        <a href="https://twitter.com/">Contact me on Twitter!</a>
                     </div>
-                </section>    
-            </section>
+                </section>
+                <!--Component 4: responsive form with animated icon, responsive-->
+                <section id="feedback_form_section">
+                    <div class="icon_link_div">
+                        <img class="icons" src="./Images/email_icon.png" alt="an icon indicating email"></a>
+                    </div>
+                    <section id="feedback_section">
+                        <div class="input_form" id="name_input_div">
+                            <label for="name_input">Name:</label>
+                            <input type="text" id="name_input" name="name_input"></input>
+                        </div>
+                        <div class="input_form" id="email_input_div">
+                            <label for="email_input">Email Address:</label>
+                            <input type="text" id="email_input" name="email_input"></input>
+                        </div>
+                        <div class="input_form" id="feedback_text_div">
+                            <label for="feedback_text">Feedback:</label>
+                            <textarea name="feedback_text" id="feedback_text"></textarea>
+                        </div>
+                        <div class="input_form">
+                            <button type="submit" id="submit_button">Submit!</button>
+                        </div>
+                    </section>    
+                </section>
+            </div>
         </main>
         <footer>
+            <a class="footer_link" href="./links.html">Contact me</a>
         </footer>
     </body>
 </html>
