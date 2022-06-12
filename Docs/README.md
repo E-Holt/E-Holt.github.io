@@ -14,23 +14,23 @@ These include:
 
 Styling links to be highlighted a different colour when hovered over, with a short transition animation.
 
-![Styled links](/Docs/highlight_links.png)
+![Styled links](./highlight_links.png)
 
 Opacity change when hovering over images.
 
-![Opacity change in images](/Docs/opacity_pics.png)
+![Opacity change in images](./opacity_pics.png)
 
 Animated icons on the contact page. 
 
-![Animated icons](/Docs/wiggle_icon.png)
+![Animated icons](./wiggle_icon.png)
 
 Header/footer changes depending on the media breakpoints.
 
-![Header/footer changes](/Docs/contact_mobile.png)
+![Header/footer changes](./contact_mobile.png)
 
 Sitemap: All pages are connected by the nav bar other than the individual blog pages, which can only be accessed from the blog page but can be navigated away from using the nav bar.
 
-![Sitemap](/Docs/sitemap.png)
+![Sitemap](./sitemap.png)
 
 Tech stack
 - HTML
